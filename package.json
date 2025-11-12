@@ -27,12 +27,13 @@
     "gulp-newer": "^1.4.0",
     "gulp-notify": "^3.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "htmlhint-stylish": "^1.0.3",
     "path": "^0.12.7",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "sass": "^1.77.6"
   },
   "engines": {
     "node": ">=6.0.0"
