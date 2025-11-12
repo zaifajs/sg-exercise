@@ -6,7 +6,7 @@
 const gulp = require('gulp');
 const notify = require('gulp-notify');
 const gulpif = require('gulp-if');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
 const gcmq = require('gulp-group-css-media-queries');
 
