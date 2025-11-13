@@ -5,7 +5,7 @@
 
 const gulp = require('gulp');
 const notify = require('gulp-notify');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const cssimport = require('gulp-cssimport');
 const rename = require('gulp-rename');
 const cssnano = require('gulp-cssnano');
